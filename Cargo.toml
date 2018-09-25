@@ -1,0 +1,10 @@
+[package]
+name = "f128"
+version = "0.1.0"
+authors = ["luuk"]
+
+[dependencies]
+rand = "*"
+
+[profile.release]
+lto = 'true'
